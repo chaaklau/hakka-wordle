@@ -295,7 +295,7 @@ function App() {
       <Alert
         message={currentHonsu}
         isOpen={isCurrentHonsuAlertOpen}
-        variant="warning"
+        variant="hint"
       />
       <Alert
         message={CORRECT_WORD_MESSAGE(solution, getHonsu(solution))}
