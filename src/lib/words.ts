@@ -1,5 +1,6 @@
 import { WORDS } from '../constants/wordlist'
 import { VALID_GUESSES } from '../constants/validGuesses'
+import { HONSU_MAP } from '../constants/honsuMap'
 import { getGuessStatuses } from './statuses'
 
 export const isWordInWordList = (word: string) => {
@@ -39,9 +40,17 @@ export const findFirstUnusedReveal = (word: string, guesses: string[]) => {
   return false
 }
 
+// extracts Honsu information
+export const getHonsu = (word: string) => {
+  if (!Object.keys(HONSU_MAP).includes(word.toLowerCase())) {
+    return word
+  }
+  return HONSU_MAP[word.toLowerCase()]
+}
+
 export const getWordOfDay = () => {
   // January 1, 2022 Game Epoch
-  const epochMs = new Date('January 1, 2022 00:00:00').valueOf()
+  const epochMs = new Date('February 21, 2022 00:00:00').valueOf()
   const now = Date.now()
   const msInDay = 86400000
   const index = Math.floor((now - epochMs) / msInDay)

@@ -32,6 +32,7 @@ import {
   isWinningWord,
   solution,
   findFirstUnusedReveal,
+  getHonsu,
 } from './lib/words'
 import { addStatsForCompletedGame, loadStats } from './lib/stats'
 import {
@@ -47,6 +48,7 @@ function App() {
   ).matches
 
   const [currentGuess, setCurrentGuess] = useState('')
+  const [currentHonsu, setCurrentHonsu] = useState('')
   const [isGameWon, setIsGameWon] = useState(false)
   const [isInfoModalOpen, setIsInfoModalOpen] = useState(false)
   const [isAboutModalOpen, setIsAboutModalOpen] = useState(false)
@@ -54,6 +56,7 @@ function App() {
   const [isStatsModalOpen, setIsStatsModalOpen] = useState(false)
   const [isSettingsModalOpen, setIsSettingsModalOpen] = useState(false)
   const [isWordNotFoundAlertOpen, setIsWordNotFoundAlertOpen] = useState(false)
+  const [isCurrentHonsuAlertOpen, setIsCurrentHonsuAlertOpen] = useState(false)
   const [isGameLost, setIsGameLost] = useState(false)
   const [isDarkMode, setIsDarkMode] = useState(
     localStorage.getItem('theme')
@@ -117,7 +120,8 @@ function App() {
     if (isGameWon) {
       setTimeout(() => {
         setSuccessAlert(
-          WIN_MESSAGES[Math.floor(Math.random() * WIN_MESSAGES.length)]
+          WIN_MESSAGES[Math.floor(Math.random() * WIN_MESSAGES.length)] +
+            ` ${getHonsu(solution)}`
         )
 
         setTimeout(() => {
@@ -148,6 +152,8 @@ function App() {
   }
 
   const onEnter = () => {
+    setCurrentHonsu(getHonsu(currentGuess))
+
     if (isGameWon || isGameLost) {
       return
     }
@@ -183,6 +189,11 @@ function App() {
     setTimeout(() => {
       setIsRevealing(false)
     }, REVEAL_TIME_MS * MAX_WORD_LENGTH)
+
+    setIsCurrentHonsuAlertOpen(true)
+    setTimeout(() => {
+      setIsCurrentHonsuAlertOpen(false)
+    }, ALERT_TIME_MS)
 
     const winningWord = isWinningWord(currentGuess)
 
@@ -282,7 +293,12 @@ function App() {
       />
       <Alert message={missingLetterMessage} isOpen={isMissingPreviousLetters} />
       <Alert
-        message={CORRECT_WORD_MESSAGE(solution)}
+        message={currentHonsu}
+        isOpen={isCurrentHonsuAlertOpen}
+        variant="warning"
+      />
+      <Alert
+        message={CORRECT_WORD_MESSAGE(solution, getHonsu(solution))}
         isOpen={isGameLost && !isRevealing}
       />
       <Alert

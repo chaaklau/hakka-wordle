@@ -17,6 +17,8 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
         >
           check out the code here
         </a>{' '}
+        <br/>
+        This version has been adapted to Hong Kong Hakka by Prof Liu Zinfat (劉鎮發) and Association for Conservation of Hong Kong Indigenous Languages (香港本土語言保育協會).
       </p>
     </BaseModal>
   )

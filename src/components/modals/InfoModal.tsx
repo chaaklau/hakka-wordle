@@ -10,41 +10,40 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Guess the word in 6 tries. After each guess, the color of the tiles will
-        change to show how close your guess was to the word.
+        試下在六次裡背，估到係乜介詞語。唔使打聲調，打字母就做得。每次之後，每隻字母嘅顏色曉變嗨，表示摟答案相差幾遠。
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="W" status="correct" />
-        <Cell value="E" />
+        <Cell value="H" status="correct" />
         <Cell value="A" />
-        <Cell value="R" />
-        <Cell value="Y" />
+        <Cell value="K" />
+        <Cell value="G" />
+        <Cell value="A" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter W is in the word and in the correct spot.
+        你估嘅詞語係「客家」（HAKGA），字母 H 在正確嘅位置。
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="P" />
-        <Cell value="I" />
-        <Cell value="L" status="present" />
-        <Cell value="O" />
-        <Cell value="T" />
+        <Cell value="N" />
+        <Cell value="G" />
+        <Cell value="A" status="present" />
+        <Cell value="N" />
+        <Cell value="G" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter L is in the word but in the wrong spot.
+        你估嘅詞語係「硬」（NGANG），詞語裡背有字母 A ，但係位置唔正確。
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="V" />
         <Cell value="A" />
         <Cell value="G" />
-        <Cell value="U" status="absent" />
-        <Cell value="E" />
+        <Cell value="U" />
+        <Cell value="N" status="absent" />
+        <Cell value="G" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter U is not in the word in any spot.
+        你估嘅詞語係「阿公」（AGUNG），詞語裡背無字母 N。
       </p>
     </BaseModal>
   )
