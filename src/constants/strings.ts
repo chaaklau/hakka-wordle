@@ -1,4 +1,5 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
+export const GAME_URL = 'https://hakka-wordle.netlify.app/'
 
 export const WIN_MESSAGES = ['Great Job!', 'Awesome', 'Well done!']
 export const GAME_COPIED_MESSAGE = '加嗨去剪貼簿囉'
