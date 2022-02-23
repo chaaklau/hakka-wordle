@@ -13,7 +13,7 @@ export const WORDS = [
   'siong', //箱:siong1,像:siong3,象:siong4,相:siong4
   'yikui', //衣櫃:yi1 kui4
   'sinse', //身世:sin1 se4
-  'sujti', //速遞:suj5 ti4
+  'sukti', //速遞:suk5 ti4
   'masak', //麻石:ma2 sak6
   'lamci', //男廁:lam2 ci4
   'tauli', //道理:tau4 li1
@@ -38,7 +38,7 @@ export const WORDS = [
   'kolok', //可樂:ko3 lok6
   'ziong', //漿:ziong1,獎:ziong3,醬:ziong4
   'sukpo', //叔婆:suk5 po2
-  'jitng', //鯽魚:jit5 ng2
+  'zitng', //鯽魚:zit5 ng2
   'giung', //弓:giung1,供:giung4
   'vutli', //物理:vut6 li1
   'geuci', //狗牸:geu3 ci4
@@ -69,7 +69,7 @@ export const WORDS = [
   'tuksu', //讀書:tuk6 su1
   'hamng', //鹹魚:ham2 ng2
   'ngioi', //艾:ngioi4
-  'cuheu', //粗口:cu1 heu2
+  'cuheu', //粗口:cu1 heu3
   'caleu', //茶樓:ca2 leu2
   'punpi', //笨皮:pun1 pi2
   'fokiu', //火球:fo3 kiu2
@@ -86,7 +86,7 @@ export const WORDS = [
   'gaban', //加班:ga1 ban1
   'misui', //米碎:mi3 sui4,沕水:mi4 sui3
   'sevon', //洗碗:se3 von2
-  'fojui', //貨櫃:fo4 jui4
+  'fokui', //貨櫃:fo4 kui4
   'zuteu', //豬頭:zu1 teu2
   'sesiu', //洗手:se3 siu3
   'donfu', //短褲:don3 fu4
@@ -107,7 +107,6 @@ export const WORDS = [
   'haziu', //下晝:ha1 ziu4
   'sakgu', //石牯:sak6 gu3
   'pikiu', //皮球:pi2 kiu2
-  'sipng', //十五:sip6 ng3
   'ngang', //硬:ngang4
   'busam', //補衫:bu3 sam1
   'kaizu', //筷子:kai4 zu3
@@ -128,7 +127,6 @@ export const WORDS = [
   'cuyiu', //自由:cu4 yiu2
   'buntu', //本土:bun3 tu3
   'yaugo', //腰果:yau1 go3
-  'cosip', //初十:co1 sip6
   'yiuyi', //有意:yiu1 yi4
   'amhoi', //暗嗨:am4 hoi1
   'hihon', //稀罕:hi1 hon4
@@ -146,7 +144,7 @@ export const WORDS = [
   'luzai', //路仔:lu4 zai3
   'hensi', //顯示:hen3 si4
   'daton', //打團:da3 ton2
-  'foson', //貨船:fo4son2
+  'foson', //貨船:fo4 son2
   'pinsi', //平時:pin2 si2
   'pizun', //樸准:pi1 zun3
   'favun', //花紋:fa1 vun2
@@ -170,12 +168,10 @@ export const WORDS = [
   'liusu', //柳樹:liu1 su4
   'yazai', //葉仔:ya2 zai3
   'ngisi', //耳屎:ngi3 si3
-  'ngsip', //五十:ng3 sip6
   'taigu', //大姑:tai4 gu1
   'gumun', //顧問:gu4 mun4
   'moifa', //梅花:moi2 fa1
   'liuyi', //留意:liu2 yi4
-  'tigiu', //第九:ti4 giu3
   'tilai', //地泥:ti4 lai2
   'muili', //美麗:mui1 li4
   'landu', //爛賭:lan4du3
@@ -211,7 +207,6 @@ export const WORDS = [
   'sukse', //縮細:suk5 se4
   'siang', //腥:siang1,醒:siang3,姓:siang4
   'magau', //罵交:ma4 gau1
-  'cosam', //初三:co1 sam1
   'fofoi', //火灰:fo3 foi1
   'gimli', //錦鯉:gim3 li1
   'lukca', //綠茶:luk6 ca2
@@ -261,7 +256,6 @@ export const WORDS = [
   'suifu', //水壺:sui3 fu2
   'zammi', //粘米:zam1 mi3
   'fafui', //花費:fa1 fui4
-  'tibat', //第八:ti4 bat5
   'eulai', //漚泥:eu4 lai2
   'suktu', //速度:suk5 tu3
   'dosui', //躲水:do3 sui3
@@ -331,21 +325,19 @@ export const WORDS = [
   'zapma', //紮馬:zap5 ma1
   'sigan', //時間:si2 gan1
   'toicu', //袋鼠:toi4 cu3
-  'ticit', //第七:ti4 cit5
   'laigo', //荔果:lai1 go3
   'taibu', //大埔:tai4 bu4
   'zuksu', //竹薯:zuk5 su3
   'ginli', //經歷:gin1 li1
   'suvun', //斯文:su1 vun2
   'moilu', //煤爐:moi2 lu2
-  'dugui', //賭鬼:du3 gui2
+  'dugui', //賭鬼:du3 gui3
   'fukhi', //福氣:fuk5 hi4
   'taisu', //剃鬚:tai4 su1
   'puiga', //肺瓜:pui4 ga1
   'yageu', //野狗:ya1geu3
   'doyun', //多雲:do1 yun2
   'hakhi', //客氣:hak5 hi4
-  'coyit', //初一:co1 yit5
   'fagau', //花膠:fa1 gau1
   'gonbi', //乾蜱:gon1 bi1
   'apkin', //鴨肫:ap5 kin1
@@ -357,7 +349,6 @@ export const WORDS = [
   'heugo', //猴哥:heu2 go1
   'yaksu', //搖手:yak6 su3
   'tiban', //地板:ti4 ban1
-  'tisip', //第十:ti4 sip6
   'pakgo', //白果:pak6 go3
   'panvo', //拌禾:pan1 vo2
   'lokto', //駱駝:lok5 to2
@@ -402,7 +393,6 @@ export const WORDS = [
   'kingo', //企鵝:ki1 ngo2
   'sauap', //燒鴨:sau1 ap5
   'banlu', //半路:ban4 lu4
-  'sisip', //四十:si4 sip6
   'senli', //生意:sen1 li1
   'diget', //帝國:di4 get5
   'sunse', //孫婿:sun1 se4
@@ -438,7 +428,7 @@ export const WORDS = [
   'yitmi', //一米:yit5 mi3
   'bauzi', //報紙:bau4 zi3
   'gauli', //高麗:gau1 li4
-  'cisiu', //聚會:ci4 siu3
+  'cisiu', //聚首:ci4 siu3
   'hoksu', //學士:hok6 su4
   'tigau', //提高:ti2 gau1
   'gauzi', //膠紙:gau1 zi3,餃子:gau3 zi3
@@ -478,7 +468,6 @@ export const WORDS = [
   'bauca', //煲茶:bau1 ca2
   'zakfo', //炙火:zak5 fo3
   'sugon', //事幹:su4 gon4
-  'sipsi', //十四:sip6 si4
   'bauza', //爆炸:bau4 za4
   'gamau', //假冒:ga3 mau4
   'futem', //湖沊:fu2 tem2
@@ -541,8 +530,6 @@ export const WORDS = [
   'kuifa', //葵花:kui2 fa1
   'subui', //字輩:su4 bui4
   'gagam', //加緊:ga1 gam3
-  'tingi', //第二:ti4 ngi4
-  'sibak', //四百:si4 bak5
   'gofun', //過分:go4 fun4
   'gabin', //嘉賓:ga1 bin1
   'sunng', //孫女:sun1 ng3
@@ -642,7 +629,6 @@ export const WORDS = [
   'mhiau', //唔曉:m1 hiau3
   'zugon', //豬肝:zu1 gon1
   'ngiak', //逆:ngiak6
-  'tisam', //第三:ti4 sam1
   'camyi', //參與:cam1 yi1
   'dauma', //刀嫲:dau1 ma2
   'manng', //滿女:man1 ng5
@@ -758,7 +744,6 @@ export const WORDS = [
   'boksu', //博士:bok5 su4
   'sumuk', //蘇木:su1 muk5,數目:su4 muk5,樹木/數目:su4 muk5
   'pingo', //蘋果:pin2 go3
-  'ngbak', //五百:ng3 bak5
   'tailu', //大路:tai4 lu4
   'lapap', //腊鴨:lap6 ap5
   'hisin', //喜訊:hi3 sin4
