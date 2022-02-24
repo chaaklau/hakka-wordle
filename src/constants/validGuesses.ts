@@ -3,6 +3,7 @@ export const VALID_GUESSES = [
   'agung', //阿公:a1 gung1
   'aicin', //哎陣:ai4 cin4
   'aiden', //挨等:ai1 den3,矮凳:ai3 den4
+  'aidiu',
   'aideu', //哎兜:ai2 deu1,哎兜:ai4 deu1
   'aikip', //埃及:ai1 kip6
   'aivui', //哎位:ai2 vui4,哎位:ai4 vui4
@@ -39,6 +40,7 @@ export const VALID_GUESSES = [
   'biang', //餅:biang3,柄:biang4,屏:biang4
   'binsi', //摒屎:bin3 si3
   'bisoi', //比賽:bi3 soi4
+  'bitiu',
   'biteu', //陂頭:bi1 teu2
   'bohai', //波鞋:bo1 hai2
   'boksu', //博士:bok5 su4
@@ -52,6 +54,7 @@ export const VALID_GUESSES = [
   'buntu', //本土:bun3 tu3
   'busam', //補衫:bu3 sam1
   'busip', //補習:bu3 sip6
+  'butiu',
   'buteu', //斧頭:bu3 teu3
   'butgo', //不過:but5 go3
   'buvok', //補鑊:bu3 vok4
@@ -64,6 +67,7 @@ export const VALID_GUESSES = [
   'caima', //猜碼:cai1 ma1
   'caing', //柴魚:cai2 ng2
   'caipo', //差婆:cai1 po2
+  'caliu',
   'caleu', //茶樓:ca2 leu2
   'calin', //車輪:ca1 lin2
   'caluk', //車轆:ca1 luk5
@@ -105,6 +109,7 @@ export const VALID_GUESSES = [
   'coyit', //初一:co1 yit5
   'cucai', //自在:cu4 cai4
   'cugok', //自覺:cu4 gok5
+  'cuhiu',
   'cuheu', //粗口:cu1 heu3
   'cunca', //伸差:cun1 ca1
   'cusin', //自信:cu4 sin4
@@ -144,9 +149,13 @@ export const VALID_GUESSES = [
   'dusin', //賭神:du3 sin2
   'duzai', //賭仔:du3 zai3
   'emzoi', //掩啜:em1 zoi4
+  'iucai',
   'eucai', //漚柴:eu4 cai2
+  'iulai',
   'eulai', //漚泥:eu4 lai2
+  'iuyen',
   'euyen', //歐元:eu1 yen2
+  'iuziu',
   'euziu', //歐洲:eu1 ziu1
   'facau', //花槽:fa1 cau2
   'fafui', //花費:fa1 fui4
@@ -186,9 +195,11 @@ export const VALID_GUESSES = [
   'foyun', //貨運:fo4 yun4
   'fuciu', //湖鰍:fu2 ciu1
   'fudam', //負擔:fu4 dam1
+  'fudiu',
   'fudeu', //戽斗:fu4 deu3
   'fufit', //狐拂:fu2 fit5
   'fugui', //富貴:fu4 gui4
+  'fuhiu',
   'fuheu', //戶口:fu4 heu3
   'fuige', //會計:fui4 ge4
   'fuigi', //飛機:fui1 gi1
@@ -246,9 +257,13 @@ export const VALID_GUESSES = [
   'getki', //國旗:get5 ki2
   'geton', //國安:get3 on1
   'getzi', //國際:get5 zi4
+  'giuci',
   'geuci', //狗牸:geu3 ci4
+  'giugu',
   'geugu', //狗牯:geu3 gu3
+  'giuma',
   'geuma', //狗嫲:geu3 ma2
+  'giusi',
   'geusi', //狗屎:geu3 si3
   'gevak', //計劃:ge4 vak6
   'giang', //驚:giang1,頸:giang3
@@ -283,6 +298,7 @@ export const VALID_GUESSES = [
   'giyit', //記憶:gi4 yit5
   'gizai', //鋸仔:gi4 zai3
   'gizak', //幾隻:gi3 zak5
+  'gofiu',
   'gofeu', //過埠:go4 feu4
   'gofun', //過分:go4 fun4
   'gofut', //果核:go3 fut6
@@ -321,6 +337,7 @@ export const VALID_GUESSES = [
   'hauma', //號碼:hau4 ma1
   'haziu', //下晝:ha1 ziu4
   'hensi', //顯示:hen3 si4
+  'hiugo',
   'heugo', //猴哥:heu2 go1
   'hicin', //起程:hi3 cin2
   'hihon', //稀罕:hi1 hon4
@@ -388,9 +405,11 @@ export const VALID_GUESSES = [
   'lemse', //腍柿:lem2 se2
   'lenga', //嬭瓜:len4 ga
   'lengu', //嬭菇:len4 gu1
+  'liuya',
   'leuya', //漏夜:leu4 ya4
   'liang', //領:liang1,靈:liang2,靚:liang4
   'libai', //禮拜:li1 bai4
+  'lidiu',
   'lideu', //蟻竇:li1 deu4
   'lifun', //離婚:li2 fun1
   'ligai', //理解:li1 gai3
@@ -427,6 +446,7 @@ export const VALID_GUESSES = [
   'lukti', //陸地:luk6 ti4
   'lusui', //露水:lu4 sui3
   'lusun', //蘆筍:lu1 sun3
+  'lutiu',
   'luteu', //爐頭:lu2 teu2
   'lutsu', //律師:lut6 su1
   'luzai', //路仔:lu4 zai3
@@ -442,6 +462,7 @@ export const VALID_GUESSES = [
   'masin', //麻繩:ma2 sin2
   'masok', //麻索:ma2 sok5
   'matai', //馬蹄:ma1 tai2
+  'matiu',
   'mateu', //碼頭:ma1 teu2
   'mayiu', //麻油:ma2 yiu2
   'mazai', //孖仔:ma1 zai3,麻仔:ma2 zai3
@@ -456,6 +477,7 @@ export const VALID_GUESSES = [
   'misin', //迷信:mi2 sin4
   'misit', //迷失:mi2 sit5
   'misui', //米碎:mi3 sui4,沕水:mi4 sui3
+  'mitiu',
   'miteu', //眉豆:mi2 teu4
   'mitga', //蜜瓜:mit6 ga1
   'mittu', //密度:mit6 tu4
@@ -495,6 +517,7 @@ export const VALID_GUESSES = [
   'ngong', //戇:ngong4
   'ngosi', //餓死:ngo4 si3
   'ngsip', //五十:ng3 sip6
+  'ngtiu',
   'ngteu', //魚頭:ng2 teu2
   'oicin', //愛情:oi4 cin2
   'oiget', //愛國:oi4 get5
@@ -524,6 +547,7 @@ export const VALID_GUESSES = [
   'penli', //便宜:pen2 li2
   'piang', //平:piang2,病:piang4
   'pidai', //背帶:pi4 dai4
+  'pidiu',
   'pideu', //被竇:pi2 deu4
   'pifat', //批發:pi1 fat5
   'pifui', //皮費:pi2 fui4
@@ -542,6 +566,7 @@ export const VALID_GUESSES = [
   'poisu', //背書:poi4 su1
   'polan', //破爛:po4 lan4
   'potai', //婆太:po2 tai4
+  'potiu',
   'poteu', //婆頭:po2 teu2
   'pudui', //部隊:pu4 dui4
   'puiga', //肺瓜:pui4 ga1
@@ -550,6 +575,7 @@ export const VALID_GUESSES = [
   'pumun', //部門:pu4 mun2
   'punpi', //笨皮:pun1 pi2
   'pusiu', //部首:pu4 siu3
+  'putiu',
   'puteu', //鋪頭:pu4 teu2
   'sacuk', //畬族:sa2 cuk6
   'sadam', //蛇膽:sa2 dam3
@@ -586,6 +612,7 @@ export const VALID_GUESSES = [
   'sigai', //世界:si4 gai4
   'sigan', //時間:si2 gan1
   'sigok', //死角:si3 gok5
+  'sihiu',
   'siheu', //時候:si2 heu4
   'siket', //時刻:si2 ket5
   'silam', //西南:si1 lam2
@@ -628,6 +655,7 @@ export const VALID_GUESSES = [
   'sokma', //索嫲:sok5 ma2,勺嫲:sok6 ma2
   'soncu', //酸醋:son1 cu4
   'songo', //酸果:son1 go3
+  'sotiu',
   'soteu', //樹頭:so1 teu2
   'sotva', //說話:sot5 va4
   'sozai', //傻仔:so zai3
@@ -685,8 +713,11 @@ export const VALID_GUESSES = [
   'taufa', //桃花:tau2 fa1
   'tauli', //道理:tau4 li1
   'taung', //討魚:tau3 ng2
+  'tiufa',
   'teufa', //豆花:teu4 fa1
+  'tiufu',
   'teufu', //豆腐:teu4 fu4
+  'tiuza',
   'teuza', //豆渣:teu4 za1
   'tiban', //地板:ti4 ban1
   'tibat', //第八:ti4 bat5
@@ -705,6 +736,7 @@ export const VALID_GUESSES = [
   'tinsi', //定時:tin4 si2
   'tisam', //第三:ti4 sam1
   'tisip', //第十:ti4 sip6
+  'titiu',
   'titeu', //地豆:ti4 teu4
   'tiuhi', //投墟:tiu2 hi1,敨氣:tiu3 hi4
   'tiula', //頭那:tiu2 la1
@@ -735,11 +767,13 @@ export const VALID_GUESSES = [
   'vunvu', //文武:vun2 vu1
   'vuset', //烏色:vu1 set5
   'vusui', //污水:vu1 sui3
+  'vutiu',
   'vuteu', //烏頭:vu1 teu2,烏豆:vu1 teu4,芋頭:vu4 teu2
   'vutli', //物理:vut6 li1
   'vuyin', //烏蠅:vu1 yin2
   'vuzai', //芋仔:vu4 zai3
   'yacoi', //椰菜:ya2 coi4
+  'yagiu',
   'yageu', //野狗:ya1 geu3
   'yahoi', //扡痎:ya3 hoi2
   'yaksu', //搖手:yak6 su3
@@ -753,6 +787,7 @@ export const VALID_GUESSES = [
   'yenfo', //煙火:yen2 fo3
   'yiciu', //宇宙:yi3 ciu4
   'yigon', //衣冠/醫官:yi1 gon1,醫館:yi1 gon3
+  'yihiu',
   'yiheu', //以後:yi1 heu4
   'yihok', //醫學:yi1 hok6
   'yikau', //依靠:yi1 kau4
@@ -818,6 +853,7 @@ export const VALID_GUESSES = [
   'zucap', //豬雜:zu1 cap6
   'zucit', //主席:zu3 cit6
   'zucoi', //煮菜:zu3 coi4
+  'zudiu',
   'zudeu', //豬兜:zu1 deu1
   'zufan', //煮飯:zu3 fan4
   'zugak', //資格:zu1 gak5
@@ -841,6 +877,7 @@ export const VALID_GUESSES = [
   'zusuk', //煮熟:zu3 suk6
   'zutai', //豬蹄:zu1 tai2
   'zutan', //子彈:zu3 tan2
+  'zutiu',
   'zuteu', //豬頭:zu1 teu2
   'zuzai', //豬仔:zu1 zai1
   'zuzit', //組織:zu3 zit5
