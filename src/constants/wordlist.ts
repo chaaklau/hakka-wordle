@@ -100,7 +100,7 @@ export const WORDS = [
   'caipo', //差婆:cai1 po2
   'vugui', //烏龜:vu1 gui1
   'zinfu', //政府:zin4 fu3
-  'puteu', //鋪頭:pu4teu2
+  'puteu', //鋪頭:pu4 teu2
   'taiha', //大廈:tai4 ha4
   'ngihi', //義氣:ngi4 hi4
   'luidu', //內肚:lui4 du3
@@ -174,7 +174,7 @@ export const WORDS = [
   'liuyi', //留意:liu2 yi4
   'tilai', //地泥:ti4 lai2
   'muili', //美麗:mui1 li4
-  'landu', //爛賭:lan4du3
+  'landu', //爛賭:lan4 du3
   'yunsu', //運輸:yun4 su1
   'fusui', //戽水:fu4 sui3
   'zucoi', //煮菜:zu3 coi4
@@ -335,7 +335,7 @@ export const WORDS = [
   'fukhi', //福氣:fuk5 hi4
   'taisu', //剃鬚:tai4 su1
   'puiga', //肺瓜:pui4 ga1
-  'yageu', //野狗:ya1geu3
+  'yageu', //野狗:ya1 geu3
   'doyun', //多雲:do1 yun2
   'hakhi', //客氣:hak5 hi4
   'fagau', //花膠:fa1 gau1
@@ -477,7 +477,7 @@ export const WORDS = [
   'gimki', //禁區:gim4 ki1,禁忌:gim4 ki4
   'cinco', //清楚:cin1 co3
   'olidu', //痾痢肚:o1 li4 du3
-  'vakfa', //畫畫:vak6fa6
+  'vakfa', //畫畫:vak6 fa6
   'luica', //擂茶:lui2 ca2
   'dalot', //打脫:da3 lot5
   'siasu', //寫字:sia3 su4
@@ -633,7 +633,7 @@ export const WORDS = [
   'dauma', //刀嫲:dau1 ma2
   'manng', //滿女:man1 ng5
   'pidai', //背帶:pi4 dai4
-  'yiyen', //醫院:yi1 yen4,依然:yi1yen2
+  'yiyen', //醫院:yi1 yen4,依然:yi1 yen2
   'cinpi', //陳皮:cin2 pi2
   'coizu', //財主:coi2 zu3
   'botsa', //發蛇:bot5 sa2

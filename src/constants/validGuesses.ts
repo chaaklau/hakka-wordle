@@ -144,7 +144,7 @@ export const VALID_GUESSES = [
   'dusin', //賭神:du3 sin2
   'duzai', //賭仔:du3 zai3
   'emzoi', //掩啜:em1 zoi4
-  'eucai', //漚祡:eu4 cai2
+  'eucai', //漚柴:eu4 cai2
   'eulai', //漚泥:eu4 lai2
   'euyen', //歐元:eu1 yen2
   'euziu', //歐洲:eu1 ziu1
@@ -376,7 +376,7 @@ export const VALID_GUESSES = [
   'lakia', //蝲䗁:la2 kia2
   'lamci', //男廁:lam2 ci4
   'lanbu', //爛布:lan4 bu4
-  'landu', //爛賭:lan4du3
+  'landu', //爛賭:lan4 du3
   'lanfa', //蘭花:lan2 fa1
   'lapap', //腊鴨:lap6 ap5
   'lapza', //蠟蔗:lap6 za4
@@ -550,7 +550,7 @@ export const VALID_GUESSES = [
   'pumun', //部門:pu4 mun2
   'punpi', //笨皮:pun1 pi2
   'pusiu', //部首:pu4 siu3
-  'puteu', //鋪頭:pu4teu2
+  'puteu', //鋪頭:pu4 teu2
   'sacuk', //畬族:sa2 cuk6
   'sadam', //蛇膽:sa2 dam3
   'safui', //社會:sa1 fui4
@@ -724,7 +724,7 @@ export const VALID_GUESSES = [
   'tuksu', //讀書:tuk6 su1
   'tusin', //土星:tu3 sin1
   'tuzai', //兔仔:tu4 zai3
-  'vakfa', //畫畫:vak6fa6
+  'vakfa', //畫畫:vak6 fa6
   'vinca', //暈車:vin2 ca1
   'vogon', //禾稈:vo2 gon3
   'vonha', //渾下:von2 ha4
@@ -740,7 +740,7 @@ export const VALID_GUESSES = [
   'vuyin', //烏蠅:vu1 yin2
   'vuzai', //芋仔:vu4 zai3
   'yacoi', //椰菜:ya2 coi4
-  'yageu', //野狗:ya1geu3
+  'yageu', //野狗:ya1 geu3
   'yahoi', //扡痎:ya3 hoi2
   'yaksu', //搖手:yak6 su3
   'yalai', //椰奶:ya2 lai1
@@ -778,7 +778,7 @@ export const VALID_GUESSES = [
   'yiung', //魷魚:yiu2 ng2
   'yiuyi', //有意:yiu1 yi4
   'yivui', //以為:yi1 vui2
-  'yiyen', //醫院:yi1 yen4,依然:yi1yen2
+  'yiyen', //醫院:yi1 yen4,依然:yi1 yen2
   'yizai', //姨在:yi2 zai3
   'yizok', //衣著:yi1 zok5
   'youyi', //由於:you2 yi1
