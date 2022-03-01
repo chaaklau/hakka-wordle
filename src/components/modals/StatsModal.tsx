@@ -3,13 +3,14 @@ import { StatBar } from '../stats/StatBar'
 import { Histogram } from '../stats/Histogram'
 import { GameStats } from '../../lib/localStorage'
 import { shareStatus } from '../../lib/share'
-import { tomorrow } from '../../lib/words'
+import { tomorrow, getHonsu } from '../../lib/words'
 import { BaseModal } from './BaseModal'
 import {
   STATISTICS_TITLE,
   GUESS_DISTRIBUTION_TEXT,
   NEW_WORD_TEXT,
   SHARE_TEXT,
+  GUESSES_TEXT,
 } from '../../constants/strings'
 
 type Props = {
@@ -75,6 +76,19 @@ export const StatsModal = ({
           >
             {SHARE_TEXT}
           </button>
+          <hr />
+        </div>
+      )}
+      {(isGameLost || isGameWon) && (
+        <div className="mt-5 sm:mt-6 columns-1 dark:text-white">
+          <hr />
+          <h4>{GUESSES_TEXT}</h4>
+          {guesses.map((object, i) => (
+            <span className="left">
+              <b>{object}</b>: {getHonsu(object)}
+              <br />
+            </span>
+          ))}
         </div>
       )}
     </BaseModal>

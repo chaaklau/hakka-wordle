@@ -20,7 +20,7 @@ export const Alert = ({
     {
       'bg-rose-500 text-white': variant === 'warning',
       'bg-blue-500 text-white': variant === 'success',
-      'bg-yellow-500 text-white': variant === 'hint',
+      'bg-gray-500 text-white': variant === 'hint',
     },
     topMost ? 'z-20' : ''
   )

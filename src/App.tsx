@@ -122,6 +122,7 @@ function App() {
         setSuccessAlert(
           WIN_MESSAGES[Math.floor(Math.random() * WIN_MESSAGES.length)] +
             ` ${getHonsu(solution)}`
+          // + '\n' + `${guesses}`  // Unhide to show all prev guesses
         )
 
         setTimeout(() => {
@@ -193,7 +194,7 @@ function App() {
     setIsCurrentHonsuAlertOpen(true)
     setTimeout(() => {
       setIsCurrentHonsuAlertOpen(false)
-    }, ALERT_TIME_MS)
+    }, ALERT_TIME_MS * 3)
 
     const winningWord = isWinningWord(currentGuess)
 
@@ -298,7 +299,7 @@ function App() {
         variant="hint"
       />
       <Alert
-        message={CORRECT_WORD_MESSAGE(solution, getHonsu(solution))}
+        message={CORRECT_WORD_MESSAGE(solution, getHonsu(solution), '')}
         isOpen={isGameLost && !isRevealing}
       />
       <Alert
