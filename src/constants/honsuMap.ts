@@ -1363,4 +1363,6 @@ export const HONSU_MAP: Record<string, string> = {
   zudiu: '豬兜:zu1 diu1 (was zu1 deu1)',
   zuhiu: '之後:zu1 hiu4 (was zu1 heu4)',
   zutiu: '豬頭:zu1 tiu2 (was zu1 teu2)',
+  ngien: '年:ngien2, 撚:ngien3, 願:ngien4',
+  ngiet: '熱:ngiet6, 月:ngiet6',
 }
